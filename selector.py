@@ -1,13 +1,4 @@
-#import random
-import sys
+import random
 
-print(sys.version)
-
-    
-#def selector():
-#    range = range(1,45)
-    
-
-
-#if __name__ = "__main__":
-#    selector()
+result = random.sample(range(1,45+1), k=6)
+print(result)
